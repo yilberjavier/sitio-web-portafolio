@@ -1,0 +1,47 @@
+
+
+{% extends 'core/base.html' %}
+
+
+{% block titulo %} Acerca de {% endblock %}
+
+
+{% block backgroud %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+
+
+
+{% block hesaders %}
+
+<h1>Acerca de </h1>
+<span class="subheading">Biografia</span>
+
+{% endblock %}
+
+
+
+
+{% block contenido %}
+
+
+<div class="container">
+    <div class="row">   
+      <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/incognito.jpg' %}" alt="">
+      </div>
+      <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Yilber Javier</h2>   
+        <p>
+          Actualmente soy estudiante de ingeniería de sistemas en la unad, pero como me apasiona el desarrollo web también soy autodidacta y estudio por mi cuenta, 
+          He aprendido tecnologías como <b>Python, Django, MySQL, HTML, Css, Git, GitHub</b>  y un poco de <b>JavaScript</b>, 
+          Creando proyectos con esta tecnología y mejorando mi conocimiento.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit...</p>
+      </div>
+    </div>  
+  </div>
+
+  <hr>
+
+
+{% endblock %}
+
